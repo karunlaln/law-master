@@ -52,17 +52,53 @@
         <div class="container">
             <div class="pop-menu-close" onclick="PopMenuClose()"><span>X</span> Close This Menu</div>
             <div class="pm-main">
-                <a href="">Home</a>
+                <a data-toggle="tab" href="#menu-home">Home</a>
                 <a href="#Ask">Ask a Question</a>
                 <a href="#Talk">Talk to a lawyer</a>
+                <a data-toggle="tab" href="#menu-legal">legal Services</a>
+                <a data-toggle="tab" href="#menu-court">Courts and Tribunals</a>
             </div>
-            <ul>
-                <li>HOME</li>
-                <li class="scroll"><a href="#Ask">Ask a Question</a></li>
-                <li class="scroll"><a href="#Talk">Talk to a lawyer</a></li>
-                <li class="scroll"><a href="#Services">legal Services</a></li>
-                <li class="scroll"><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
-            </ul>
+            
+            <div class="tab-content">
+                    <div id="menu-home" class="tab-pane fade in active">
+                        <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#Ask">Ask a Question</a></li>
+                            <li><a href="#Talk">Talk to a lawyer</a></li>
+                            <li><a href="#Services">legal Services</a></li>
+                            <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                        </ul>
+                        <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                <li><a href="#Home">Home</a></li>
+                                <li><a href="#Ask">Ask a Question</a></li>
+                                <li><a href="#Talk">Talk to a lawyer</a></li>
+                                <li><a href="#Services">legal Services</a></li>
+                                <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                        </ul>
+                        <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                <li><a href="#Home">Home</a></li>
+                                <li><a href="#Ask">Ask a Question</a></li>
+                                <li><a href="#Talk">Talk to a lawyer</a></li>
+                                <li><a href="#Services">legal Services</a></li>
+                                <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                            </ul>
+                        <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#Ask">Ask a Question</a></li>
+                            <li><a href="#Talk">Talk to a lawyer</a></li>
+                            <li><a href="#Services">legal Services</a></li>
+                            <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                        </ul>
+                    </div>
+                    <div id="menu-legal" class="tab-pane fade">
+                      <h3>Menu 1</h3>
+                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div id="menu-court" class="tab-pane fade">
+                      <h3>Menu 2</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                  </div>
         </div>
     </div>
     <!--End Pop Menu-->
@@ -77,8 +113,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <div class="pop-menu-but">
-                    <i class="fa fa-align-justify fa-2x" onclick="PopMenu()"></i>
+                    <div class="pop-menu-but" onclick="PopMenu()">
+                    <i class="fa fa-align-justify fa-2x"></i>
                     <span>menu</span>
                     </div>
                     <a class="navbar-brand" href="#home"><img src="style/images/logo.png" alt="logo" class="logo"></a>
