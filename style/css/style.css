@@ -150,7 +150,8 @@ body {
     display: block;
     float: left;
     text-decoration: none;
-    font-weight: 500;
+	font-weight: 500;
+	text-transform: capitalize;
 }
 .navbar.navbar-default {
   border: 0;
