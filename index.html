@@ -53,8 +53,8 @@
             <div class="pop-menu-close" onclick="PopMenuClose()"><span>X</span> Close This Menu</div>
             <div class="pm-main">
                 <a data-toggle="tab" href="#menu-home">Home</a>
-                <a href="#Ask">Ask a Question</a>
-                <a href="#Talk">Talk to a lawyer</a>
+                <a href="#Ask" onclick="PopMenuClose()">Ask a Question</a>
+                <a href="#Talk" onclick="PopMenuClose()">Talk to a lawyer</a>
                 <a data-toggle="tab" href="#menu-legal">legal Services</a>
                 <a data-toggle="tab" href="#menu-court">Courts and Tribunals</a>
             </div>
@@ -62,32 +62,94 @@
             <div class="tab-content">
                     <div id="menu-home" class="tab-pane fade in active">
                         <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                            <li><a href="#Home">Home</a></li>
-                            <li><a href="#Ask">Ask a Question</a></li>
-                            <li><a href="#Talk">Talk to a lawyer</a></li>
-                            <li><a href="#Services">legal Services</a></li>
-                            <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                            <li><a href="#Services">legal Services</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">Civil</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Criminal</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Corporate Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Arbitration</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Environmental law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Tax Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Banking Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">MACT Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Family Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Consumer Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Constitutional Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Human right Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Real-estate Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Commercial Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Contract Law</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Rent Control Law</a></li>
+                                </ul>
+                            </li>
+                           
                         </ul>
                         <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                <li><a href="#Home">Home</a></li>
-                                <li><a href="#Ask">Ask a Question</a></li>
-                                <li><a href="#Talk">Talk to a lawyer</a></li>
-                                <li><a href="#Services">legal Services</a></li>
-                                <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                            <li><a href="#CourtsandTribunals">Civil Courts</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">Munsiff Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Sub-Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Dist-Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">High Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">Criminal Courts</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">Magistrate Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">CJM</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Session Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">High Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                           
                         </ul>
                         <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                <li><a href="#Home">Home</a></li>
-                                <li><a href="#Ask">Ask a Question</a></li>
-                                <li><a href="#Talk">Talk to a lawyer</a></li>
-                                <li><a href="#Services">legal Services</a></li>
-                                <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
-                            </ul>
+                            <li><a href="#CourtsandTribunals">Banking Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">DRT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">ADRT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li> 
+                            <li><a href="#CourtsandTribunals">Motor Vehicle Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">MVT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">High Court </a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">Company Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">CT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">ACT </a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>  
+                        </ul>
                         <ul class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                            <li><a href="#Home">Home</a></li>
-                            <li><a href="#Ask">Ask a Question</a></li>
-                            <li><a href="#Talk">Talk to a lawyer</a></li>
-                            <li><a href="#Services">legal Services</a></li>
-                            <li><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                            <li><a href="#CourtsandTribunals">Income Tax Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">IT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">IAT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">Green Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">GT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">CDRF</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">CDRF</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">SCDRF</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">NCDRF</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <div id="menu-legal" class="tab-pane fade">
