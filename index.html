@@ -57,6 +57,7 @@
                 <a href="#Talk" onclick="PopMenuClose()">Talk to a lawyer</a>
                 <a data-toggle="tab" href="#menu-legal">legal Services</a>
                 <a data-toggle="tab" href="#menu-court">Courts and Tribunals</a>
+                <a href="#Track" onclick="PopMenuClose()">Track Question</a>
             </div>
             
             <div class="tab-content">
@@ -272,18 +273,91 @@
                     <i class="fa fa-align-justify fa-2x"></i>
                     <span>menu</span>
                     </div>
+
+                    <button type="button" class="pop-menu-but-mob navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+
                     <a class="navbar-brand" href="#home"><img src="style/images/logo.png" alt="logo" class="logo"></a>
                 </div>
-				<!--
-                <div class="collapse navbar-collapse navbar-left">
+				
+                <div class="collapse navbar-main navbar-left">
                     <ul class="nav navbar-nav">
                         <li class="scroll"><a href="#Ask">Ask a Question</a></li>
                         <li class="scroll"><a href="#Talk">Talk to a lawyer</a></li>
                         <li class="scroll"><a href="#Services">legal Services</a></li>
-                        <li class="scroll"><a href="#CourtsandTribunals">Courts and Tribunals </a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Courts and Tribunals </a>
+                            <ul class="dropdown-menu">
+                            <li class="dropdown dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Civil Courts</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" onclick="PopMenuClose()">Munsiff Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Sub-Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Dist-Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">High Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Criminal Courts</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">Magistrate Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">CJM</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Session Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">High Court</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">Banking Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">DRT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">ADRT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li> 
+                            <li><a href="#CourtsandTribunals">Motor Vehicle Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">MVT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">High Court </a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">Company Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">CT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">ACT </a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">Income Tax Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">IT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">IAT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">Green Tribunals</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">GT</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#CourtsandTribunals">CDRF</a>
+                                <ul>
+                                    <li><a href="" onclick="PopMenuClose()">CDRF</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">SCDRF</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">NCDRF</a></li>
+                                    <li><a href="" onclick="PopMenuClose()">Supreme Court</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
                     </ul>
                 </div>
-                -->
+                
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="scroll"><a href="" data-toggle="modal" data-target="#login-modal">Log In</a></li>
