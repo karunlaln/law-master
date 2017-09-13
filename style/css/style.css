@@ -200,7 +200,13 @@ body {
 .slider-txt p{
 	color:#fff;
 }
+.mn-search-box{
+	padding: 0 0 40px 0;
 
+}
+.mn-search-box .form-control{
+	border: 1px solid #999;
+}
 #mn_sec_01{
 	padding: 50px 0;
 	background: #3c474f;
